@@ -38,3 +38,13 @@ int main() {
 
     return 0;
 }
+
+Time Complexity:
+Calculating the sums of arrays A and B takes O(n) time, where n is the length of the arrays.
+Constructing the unordered_set from array B also takes O(n) time in the worst case.
+The loop over array A has O(n) iterations.
+The dominant factor is the loop over array A, so the overall time complexity is O(n).
+
+Space Complexity:
+The space complexity is primarily determined by the unordered_set set_B, which stores the elements of array B. The space complexity is O(n) since it stores up to n elements.
+Additionally, there are some constant space requirements for integer variables.
